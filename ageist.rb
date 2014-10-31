@@ -4,6 +4,8 @@ if age <= 1
   stage = 'baby'
 elsif age < 10
   stage = 'child'
+# do you need to check the lower bound here?
+# it should be enough to check that it is up to the upper limit
 elsif age.between?(10, 12)
   stage = 'tween'
 elsif age.between?(13, 19)
