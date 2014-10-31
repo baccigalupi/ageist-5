@@ -1,5 +1,8 @@
 age = rand(111)
-
+# very cool, nice catch of the 111, also like that you decided to change product and make this more specific
+# 
+# Don't put a line break between case and other lines
+# Also, 'then' is not so used in Ruby though it is there. Best to just have indented lines in each case
 stage = case age
 
 when 0..1 then 'baby'
